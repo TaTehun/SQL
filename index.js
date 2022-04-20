@@ -11,5 +11,5 @@ app.use(bodyParser.json());
 //middleware
 app.use(usersRouter)
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT);
